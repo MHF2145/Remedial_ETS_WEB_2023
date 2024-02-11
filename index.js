@@ -1,4 +1,4 @@
-fetch('https://pokeapi.co/api/v2/pokemon?offset=0&limit=20')
+fetch('https://pokeapi.co/api/v2/pokemon?offset=0&limit=1000000')
     .then(response => response.json())
     .then(data => {
         const cardContainer = document.getElementById('pokecard');
